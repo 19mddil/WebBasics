@@ -1,0 +1,22 @@
+/*
+	q1:Did the CSS file contain appropriate comments?
+	q2:Did the CSS file change the way the text appeared in 3 ways?
+	q3:Did the CSS file use three, different modifiers?
+*/
+
+body{
+	font-family: monospace;/*setting font*/
+}
+h1{
+	/*q2(Ans.):Text Appearance 1=> capitalising each word in the heading text*/
+	text-transform: capitalize;
+	margin-left:5%;/*indenting from left*/
+	/*q2(Ans.):Text Appearance 2=> Letter spacing the words in the text line in heading*/	
+	letter-spacing: .2em;
+	/*q2(Ans.):Text Appearance 3=> Making the words text shadowed*/	
+	color:white;
+	text-shadow: 2px 2px 7px #111111;
+}
+h1::first-letter{
+	font-size:200%;/*Making first letter on the heading line larger*/
+}
