@@ -1,0 +1,24 @@
+header{
+	background-color: #123456;
+}
+header h1{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+}
+header nav a{
+	background-color: #B2BEB5;
+	color: black;
+	display: inline;
+}
+aside a{
+	display: none;
+}
+section {
+	background-color: #666666;
+}
+section h2{
+	color: #123456;
+	text-transform: uppercase;
+	text-align: left;
+}

@@ -1,0 +1,22 @@
+span{
+	height: 50px;
+	width: 25%;
+	background-color: #00ff00;
+	//display: inline-block;
+}
+div{
+	height: 100px;
+	width: 45%;
+	background-color: #00ffff;
+	//display: inline-block;
+}
+p{
+	background-color: #ff00ff;
+	width: 200px;
+	height: 100px;
+	//display: inline-block;
+}
+/**
+In display block, you can resize the element box,if not resized single element will take the full space of the width of the window.
+In display inline element you can not resize the element box but the elements will take just enough height and width and come as normal left to right then new line rule.
+**/

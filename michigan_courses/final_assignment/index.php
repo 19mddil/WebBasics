@@ -4,17 +4,17 @@
 	<meta charset="utf-8">
 	<title>Beta PortFolio and Blog page</title>
 </head>
-<body>
+<body style="background-color: black;color:grey;font-family: monospace;">
   	<header>
+  		<h3 style="color:red; font-family: sans-serif;">(This is beta version,not a final release!Final release is dued to 5th October or before it.)</h3>
 		<h1>Md.Dilshadul Islam(Md.Dilshad/19mddil)🌱</h1>
 		<nav>
-			<p>Contact Me:
+			<p style="background-color: green;color:black;margin-right:50%;padding: 5px 5px 5px 5px;"><b>Contact Me:</b> 
 				<a href="https://github.com/19mddil">
-			        <img src="https://github.githubassets.com/favicons/favicon.png" width="25px" height="25px" title="My Favourite Github"/>
-			    </a>&nbsp;&nbsp; 
+			        <img src="https://github.githubassets.com/favicons/favicon.png" width="25px" height="25px" title="My Favourite Github"/>&nbsp;&nbsp;
 				<a href="https://stackoverflow.com/users/10853066/mohammed-dilshad">
 					<img src="https://cdn.sstatic.net/Sites/stackoverflow/Img/favicon.ico?v=ec617d715196" width="25px" 
-						height="25px title="Stackoverflow"/>
+						height="25px" title="Stackoverflow"/>
 				</a>&nbsp;&nbsp;
 				<a href="https://www.facebook.com/19womanizer">
 					<img src="https://static.xx.fbcdn.net/rsrc.php/yo/r/iRmz9lCMBD2.ico" width="25px" height="25px" 
@@ -67,7 +67,8 @@
 		<hr>
 			<p>Also You can mail me in my personal email account: 
 				<a href="mailto:mddilshadul98@19mddilshad.xyz">mddilshadul98@19mddilshad.xyz</a><br />
-			Or, If you prefer Gmail: <a href="mailto:mddilshadul98@gmail.com">mddilshadul98@gmail.com</a></p>		
+			Or, If you prefer Gmail: <a href="mailto:mddilshadul98@gmail.com">mddilshadul98@gmail.com</a></p>
+			<?php echo date("Y-m-d")?>		
 	</footer>
 </body>
 </html>
